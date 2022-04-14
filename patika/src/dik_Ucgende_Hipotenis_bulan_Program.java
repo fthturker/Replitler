@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class dik_Ucgende_Hipotenis_bulan_Program {
     /*
     Dik Üçgende Hipotenüs Bulan Program
