@@ -15,7 +15,7 @@ public class Soru_24_ArrayBinarySearch {
     }
 }
 /*
-A. apple banana grapes pears
+A. apple banana grapes pears    DOGRU
 B. pears grapes banana apple
 C. banana apple pears grapes
 D. Kod calismaz

@@ -1,11 +1,18 @@
 public class Soru_19_Arrays {
     public static void main(String[] args) {
+
         /*
-        A. int[][] scores = new int [5][];
-        B. Object[][][] cubbies =new Object[3][0][5];
-        C. String beans[] = new beans[6];
-        D. int[][] types = new int[];
-        E. int[][] java = new int[][];
+        int arr[]={3,4,5};
+        String arr2[]=new String [20]; data turunu ve boyutunu yazmaliyiz
+         */
+
+
+        int[][] scores = new int [5][];
+        Object[][][] cubbies =new Object[3][0][5];
+        /*
+        String beans[] = new beans[6];  //DOGRU data turu yerine isim yazilmis
+        int[][] types = new int[];  //DOGRU sol taraf iki katli array sag tarafi da iki katli olmasi ve boyut yazilmali
+        int[][] java = new int[][]; //DOGRU lrnght yazilmadigi icin CTE verir
          */
     }
 }

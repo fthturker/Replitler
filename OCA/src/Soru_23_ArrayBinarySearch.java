@@ -13,7 +13,10 @@ public class Soru_23_ArrayBinarySearch {
 A. 2
 B. 3
 C. 6
-D. Sonuc belirlenemez
+D. Sonuc belirlenemez //DOGRU
 E. Bir exception olusur
 F. Kod calismaz
+ */
+/*
+
  */

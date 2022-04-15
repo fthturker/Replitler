@@ -3,8 +3,8 @@ public class Soru_18_ForLoopContinueKullanimi {
     public static void main(String[] args) {
 
         int count = 0;
-        ROW_LOOP:
-        for (int row = 1; row <= 3; row++)
+        ROW_LOOP : for (int row = 1; row <= 3; row++)
+
             for (int col = 1; col <= 2; col++) {
                 if (row * col % 2 == 0) continue ROW_LOOP;
                 count++;
@@ -14,7 +14,7 @@ public class Soru_18_ForLoopContinueKullanimi {
 }
 /*
 A. 1
-B. 2
+B. 2    DOGRU
 C. 3
 D. 4
 E. 6
