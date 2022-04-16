@@ -1,6 +1,14 @@
 public class denemeler {
     public static void main(String[] args) {
-        boolean a = true, b = false;
-        System.out.println((a && b) || (a || b));
+        int points=6;
+        switch(points)
+        {
+            case 6: ;
+            case 7: System.out.println("Java");break;
+            case 8: ;
+            case 9: System.out.println("101");break;
+            case 10: System.out.println("Patika"); break;
+            default: System.out.println("Dev");
+        }
     }
 }
