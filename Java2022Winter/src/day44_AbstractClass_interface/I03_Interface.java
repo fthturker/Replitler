@@ -3,12 +3,10 @@ package day44_AbstractClass_interface;
 public interface I03_Interface {
 
     /*
-    tam soyutlama / full abstraction olusturmak istersek
-    abstract class'lari degil interface kullaniriz
-
-    interface'lerde sadece abstract method'lar bulunur
-     */
-
+     Tam soyutlama / full abstraction olusturmak istersek
+     abstract class'lari degil interface kullaniriz
+     Interface'lerde sadece abstaract method'lar bulunur
+      */
     public static final int SAYI=20;
-
+    int SAYI_2=40;
 }
