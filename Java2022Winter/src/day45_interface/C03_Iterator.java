@@ -19,7 +19,7 @@ public class C03_Iterator {
         ) {
             each=each+2;
         }
-        System.out.println(liste);
+        System.out.println(liste); // [5, 7, 8, 6, 9]
         Iterator itr = liste.iterator();
     }
 }

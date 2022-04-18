@@ -33,6 +33,7 @@ public class C01_iterator {
          [ 5, 7, (itr)8, 6, 9]   ===> bize 7 dondurur
          itr.remove(); // iterator'in elinde olan elementi sildi
          dolayisiyla ust uste iki kere itr.remove(); KULLANILAMAZ
+
          once itr.next(); methodunu calistirip
          iterator'in bir element almasini saglamaliyiz
          */

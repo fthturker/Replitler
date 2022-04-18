@@ -25,9 +25,9 @@ public class C02_listeninElementleriniArttirma {
          */
 
         ListIterator itr = liste.listIterator();
-        while (itr.hasNext()){ // yaninda element oldugu muddetce calisacak
+        while (itr.hasNext()) { // yaninda element oldugu muddetce calisacak
             Object sayi = itr.next();
-            itr.set((Integer)sayi+3);
+            itr.set((Integer) sayi + 3);
 
         }
         System.out.println(liste); // [8, 10, 11, 9, 12]
