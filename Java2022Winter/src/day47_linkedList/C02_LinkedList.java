@@ -13,6 +13,7 @@ public class C02_LinkedList {
         ll1.addLast(20); // sona element ekler
         System.out.println(ll1);// [10, 20]
         System.out.println(ll1.element()); // ilk elementi silmeden bize dondurur // 10
+                                           // ilk element yosa exception firlatir
 
         System.out.println(ll1.getLast()); // 20
         System.out.println(ll1.getFirst()); // 10
@@ -24,7 +25,10 @@ public class C02_LinkedList {
         ll1.offerFirst(50);
         System.out.println(ll1); // [50, 10, 20, 30, 40]
 
-        ll1.peek();
+        System.out.println(ll1.peek()); // ilk elementi silmeden bize dondurur,
+                                        //
+
+        System.out.println(ll1.poll()); //
 
 
 
