@@ -14,24 +14,22 @@ public class C04_ArraydenTekrarlariSilme {
 
         arr = benzersizYap(arr);
         System.out.println(Arrays.toString(arr)); // [1, 2, 3, 4, 5, 6, 7, 8]
-
-
     }
 
     private static Integer[] benzersizYap(Integer[] arr) {
-        Set<Integer> benzersizSet=new TreeSet<>();
-        for (Integer each:arr
-             ) {
+        Set<Integer> benzersizSet = new TreeSet<>();
+        for (Integer each : arr
+        ) {
             benzersizSet.add(each);
         }
         System.out.println(benzersizSet); // [1, 2, 3, 4, 5, 6, 7, 8]
         // Set'de index yapisi yoktur. dolayisiyla for loop kullanmayiz
 
-        Integer arrBenzersiz[]=new Integer[benzersizSet.size()];
-        int index=0;
-        for (Integer each:benzersizSet
-             ) {
-            arrBenzersiz[index]=each;
+        Integer arrBenzersiz[] = new Integer[benzersizSet.size()];
+        int index = 0;
+        for (Integer each : benzersizSet
+        ) {
+            arrBenzersiz[index] = each;
             index++;
         }
 

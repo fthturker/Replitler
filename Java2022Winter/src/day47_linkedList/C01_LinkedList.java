@@ -13,25 +13,19 @@ public class C01_LinkedList {
             List secersek : sadece List Interface'indeki method'lar
             Deque/Queu secersek : Deque 'deki methodlari kullaniriz
 
-
          */
-        LinkedList<Integer> ll1=new LinkedList<>();
+        LinkedList<Integer> ll1 = new LinkedList<>();
         ll1.add(10); // LinkedList
 
-
-
         // sadece List interface'inden ozellikler kullanmak istersek
-        List<Integer> ll2=new LinkedList<>();
+        List<Integer> ll2 = new LinkedList<>();
         ll2.add(10);
         ll2.remove(0);
 
         // sadece Deque den gelen ozellikleri kullanalim
-        Deque<Integer> ll3=new LinkedList<>();
+        Deque<Integer> ll3 = new LinkedList<>();
         ll3.addLast(20);
         ll3.addFirst(15);
         System.out.println(ll3); // [15, 20]
-
-
-
     }
 }

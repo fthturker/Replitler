@@ -5,15 +5,17 @@ import java.util.LinkedList;
 
 public class C02_LinkedList {
     public static void main(String[] args) {
+
         // List'den gelen ozellikleri biliyoruz
         // onun icin Deque!den gelen ozelliklere beakalim
 
-        Deque<Integer> ll1=new LinkedList<>();
+        Deque<Integer> ll1 = new LinkedList<>();
         ll1.addFirst(10); // basa element ekler add() gore daha hizlidir
         ll1.addLast(20); // sona element ekler
         System.out.println(ll1);// [10, 20]
         System.out.println(ll1.element()); // ilk elementi silmeden bize dondurur // 10
-                                           // ilk element yosa exception firlatir
+
+        // ilk element yosa exception firlatir
 
         System.out.println(ll1.getLast()); // 20
         System.out.println(ll1.getFirst()); // 10
@@ -25,14 +27,8 @@ public class C02_LinkedList {
         ll1.offerFirst(50);
         System.out.println(ll1); // [50, 10, 20, 30, 40]
 
-        System.out.println(ll1.peek()); // ilk elementi silmeden bize dondurur,
-                                        //
+        System.out.println(ll1.peek()); // ilk elementi silmeden bize dondurur
 
         System.out.println(ll1.poll()); //
-
-
-
-
-
     }
 }
