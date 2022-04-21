@@ -73,7 +73,7 @@ public class C01_Maps {
             for (int j = 0; j < innerArrayBoyut; j++) {
                 System.out.print(valueMDA[i][j]+"    ");
             }
-            System.out.println("");
+            System.out.println();
         }
 
     }
