@@ -7,9 +7,11 @@ import java.util.Scanner;
 public class HangiKahve {
     static List<Kahve> kahve = new ArrayList<>();
     static List<Kahve> secilenKahve = new ArrayList<>();
+
     static String arrSut[] = {"Az Sütlü", "Orta Sütlü", "Bol Sütlü", "Sütsüz"};
     static String arrSeker[] = {"Az Şekerli", "Orta Şekerli", "Şekerli", "Şekersiz"};
     static String arrBardak[] = {"Küçük Boy", "Orta Boy", "Büyük Boy", "Duble Boy"};
+
     static Scanner scan = new Scanner(System.in);
     static String no;
     static String bardak;
@@ -50,7 +52,7 @@ public class HangiKahve {
                 System.out.println("Hatalı giriş yaptınız, Tekrar deneyiniz");
                 kahveSecim();
         }
-        System.out.println("Seçiminiz : " + kahve.get(Integer.valueOf(no) - 1).getKahveAdi());
+        System.out.println("Seçiminiz : " + kahve.get(Integer.valueOf(no) - 1).getKahveAdi()); //
 
         bardakSecim();
 
@@ -74,7 +76,6 @@ public class HangiKahve {
         }
         sekerSecim();
     }
-
 
     private void sekerSecim() {
         System.out.println("Şeker istermisiniz Evet için 'E' Hayır için 'H' giriniz : ");
