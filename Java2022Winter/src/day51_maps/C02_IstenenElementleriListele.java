@@ -1,17 +1,14 @@
 package day51_maps;
-
-import day49_Maps.MapOlustur;
-
+import day49_maps.MapOlustur;
 import java.util.*;
-
 public class C02_IstenenElementleriListele {
     /*
-  Soru 2 ) Verilen map’te istenen programlama dilini bilen kisileri
-  list olarak donduren bir method yaziniz.
-  map {    101=Ali, Can, java, 102=Veli, Yan, java, 103=Ali, Yan, C#}
-  Istenen dil  java
-  Sonuc  [Ali, Veli]
-   */
+    Soru 2 ) Verilen map’te istenen programlama dilini bilen kisileri
+    list olarak donduren bir method yaziniz.
+    map {    101=Ali, Can, java, 102=Veli, Yan, java, 103=Ali, Yan, C#}
+    Istenen dil  java
+    Sonuc  [Ali, Veli]
+     */
     public static void main(String[] args) {
         Map<Integer,String> sinifMap=  MapOlustur.myMap();
         String istenenDil="Dev";
@@ -43,5 +40,3 @@ public class C02_IstenenElementleriListele {
         return istenenDiliBilenlerListesi;
     }
 }
-
-

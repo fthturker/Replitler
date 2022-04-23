@@ -1,6 +1,5 @@
-package day50_Maps;
-import day49_Maps.MapOlustur;
-
+package day50_maps;
+import day49_maps.MapOlustur;
 import java.util.*;
 public class C01_Maps {
     public static void main(String[] args) {
@@ -42,10 +41,8 @@ public class C01_Maps {
         // bu satira kadar key'leri index ile ulasabildigim keyList' e atadim
         // value'leri valueMDArr'e atadim
         // simdi bu key ve value'leri istedigim gibi manuple edebilirim
-
         System.out.println("Numara  Isim   Soyisim  Brans");
         System.out.println("=============================");
-
         for (int i = 0; i <keyList.size() ; i++) {
             System.out.print( keyList.get(i)+ "   ");
             for (int j = 0; j < innerArrayBoyut; j++) {
@@ -53,16 +50,5 @@ public class C01_Maps {
             }
             System.out.println("");
         }
-
     }
 }
-
-
-
-
-
-
-
-
-
-

@@ -1,9 +1,7 @@
-package day00_denemeler;
+package day52_maps;
 
-public class C04 {
+public class C02_Update {
     public static void main(String[] args) {
-
 
     }
 }
-
