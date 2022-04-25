@@ -1,5 +1,4 @@
 package day27_constructor;
-
 public class Volvo {
     String markası="Volvo";
     String mensei="Isvec";
