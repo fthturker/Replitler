@@ -1,5 +1,4 @@
 package day26_forEachLoop_constructor;
-
 public class Araba {
     /*
         java'da her class olusturdugumuzda
@@ -41,5 +40,4 @@ public class Araba {
     public Araba(int yil,String renk){
         System.out.println(yil + " model " + renk + " renkli bir araba uretildi");
     }
-
 }
